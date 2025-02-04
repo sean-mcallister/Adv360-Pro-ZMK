@@ -24,11 +24,11 @@
             label = "WORKSPACE";
         };
 
-        tmuxsess: tmuxsess {
+        tmuxsession: tmuxsession {
             compatible = "zmk,behavior-macro-one-param";
             #binding-cells = <1>;
             bindings = <&kp LC(A) &kp S &macro_param_1to1 &kp MACRO_PLACEHOLDER>;
-            label = "TMUXSESS";
+            label = "TMUXSESSION";
         };
 
         #endif
@@ -92,11 +92,11 @@
 
         ses {
             bindings = <
-&none  &kp LA(N0)          &kp LA(N9)          &kp LA(N8)          &kp LA(N7)          &kp LA(N6)             &trans                                    &trans  &tmuxsess NUMBER_1  &tmuxsess NUMBER_2  &tmuxsess NUMBER_3  &tmuxsess NUMBER_4  &tmuxsess N5  &none
-&none  &kp LA(N5)          &kp LA(N4)          &kp LA(N3)          &kp LA(N2)          &kp LA(N1)             &trans                                    &trans  &tmuxwin NUMBER_1   &tmuxwin N2         &tmuxwin N3         &tmuxwin N4         &tmuxwin N5   &none
-&none  &sk LGUI            &sk LALT            &sk LCTRL           &sk LSHFT           &tmuxwin LEFT_BRACKET  &trans  &none   &none      &none  &none   &trans  &kp LEFT            &kp DOWN            &kp UP              &kp RIGHT           &none         &none
-&none  &kp LS(LA(LC(F2)))  &kp LA(LC(LS(F3)))  &kp LS(LA(LC(F4)))  &kp LS(LA(LC(F1)))  &caps_word                             &none      &none                  &kp HOME            &kp PG_UP           &kp PG_DN           &kp END             &none         &none
-&none  &none               &none               &none               &none                                      &trans  &trans  &none      &none  &trans  &trans                      &none               &none               &none               &none         &none
+&none  &kp LA(N0)          &kp LA(N9)          &kp LA(N8)          &kp LA(N7)          &kp LA(N6)             &trans                                    &trans  &tmuxsession NUMBER_1  &tmuxsession NUMBER_2  &tmuxsession NUMBER_3  &tmuxsession NUMBER_4  &tmuxsession N5  &none
+&none  &kp LA(N5)          &kp LA(N4)          &kp LA(N3)          &kp LA(N2)          &kp LA(N1)             &trans                                    &trans  &tmuxwin NUMBER_1      &tmuxwin N2            &tmuxwin N3            &tmuxwin N4            &tmuxwin N5      &none
+&none  &sk LGUI            &sk LALT            &sk LCTRL           &sk LSHFT           &tmuxwin LEFT_BRACKET  &trans  &none   &none      &none  &none   &trans  &kp LEFT               &kp DOWN               &kp UP                 &kp RIGHT              &none            &none
+&none  &kp LS(LA(LC(F2)))  &kp LA(LC(LS(F3)))  &kp LS(LA(LC(F4)))  &kp LS(LA(LC(F1)))  &caps_word                             &none      &none                  &kp HOME               &kp PG_UP              &kp PG_DN              &kp END                &none            &none
+&none  &none               &none               &none               &none                                      &trans  &trans  &none      &none  &trans  &trans                         &none                  &none                  &none                  &none            &none
             >;
         };
 
