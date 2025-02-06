@@ -107,11 +107,11 @@
 
         kp {
             bindings = <
-&none  &none         &kp C_PREVIOUS     &kp C_PP               &kp C_NEXT  &none  &trans                                     &trans  &none         &kp C_MUTE  &kp C_VOL_DN  &kp C_VOL_UP  &none         &none
-&none  &kp N1        &kp N2             &kp N3                 &kp N4      &kp N5 &trans                                     &trans  &kp N6        &kp N7      &kp N8        &kp N9        &kp N0        &none
-&none  &sk LEFT_GUI  &sk LEFT_ALT       &sk LCTRL              &sk LSHFT   &none  &trans  &none   &none      &none  &none    &trans  &kp H         &kp J       &kp K         &kp L         &none         &none
-&none  &none         &kp LA(LC(LSHFT))  &kp LA(LC(LG(LSHFT)))  &none       &none                  &none      &none                   &kp CARET     &kp LS(G)   &kp G         &kp DOLLAR    &none         &none
-&none  &none         &none              &none                  &none              &trans  &trans  &none      &none  &trans   &trans                &none       &none         &none         &none         &none
+&none  &none         &kp C_PREVIOUS     &kp C_PP               &kp C_NEXT  &none   &trans                                    &trans  &none      &kp C_MUTE  &kp C_VOL_DN  &kp C_VOL_UP  &none   &none
+&none  &kp N1        &kp N2             &kp N3                 &kp N4      &kp N5  &trans                                    &trans  &kp N6     &kp N7      &kp N8        &kp N9        &kp N0  &none
+&none  &sk LEFT_GUI  &sk LEFT_ALT       &sk LCTRL              &sk LSHFT   &none   &trans  &none   &none      &none  &none   &trans  &kp H      &kp J       &kp K         &kp L         &none   &none
+&none  &none         &kp LA(LC(LSHFT))  &kp LA(LC(LG(LSHFT)))  &none       &none                   &none      &none                  &kp CARET  &kp LS(G)   &kp G         &kp DOLLAR    &none   &none
+&none  &none         &none              &none                  &none               &trans  &trans  &none      &none  &trans  &trans             &none       &none         &none         &none   &none
             >;
         };
 
@@ -137,11 +137,11 @@
 
         fn {
             bindings = <
-&none   &none  &none  &none  &none  &none  &trans                                    &trans  &none  &none   &none   &none   &none    &none
-&none   &kp F1 &kp F2 &kp F3 &kp F4 &kp F5 &trans                                    &trans  &kp F6 &kp F7  &kp F8  &kp F9  &kp F10  &none
-&none  &sk LEFT_GUI  &sk LEFT_ALT       &sk LCTRL              &sk LSHFT   &none  &trans  &none   &none      &none  &none    &trans  &kp H         &kp J       &kp K         &kp L         &none         &none
-&trans  &none  &none  &none  &none  &none                  &none      &none                  &none  &kp F1  &kp F2  &kp F3  &kp F12  &none
-&none   &none  &none  &none  &none         &trans  &trans  &none      &none  &trans  &trans         &none   &none   &none   &none    &none
+&none   &none         &none         &none      &none      &none   &trans                                    &trans  &none   &none   &none   &none   &none    &none
+&none   &kp F1        &kp F2        &kp F3     &kp F4     &kp F5  &trans                                    &trans  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &none
+&none   &sk LEFT_GUI  &sk LEFT_ALT  &sk LCTRL  &sk LSHFT  &none   &trans  &none   &none      &none  &none   &trans  &kp H   &kp J   &kp K   &kp L   &none    &none
+&trans  &none         &none         &none      &none      &none                   &none      &none                  &none   &none   &none   &none   &none    &none
+&none   &none         &none         &none      &none              &trans  &trans  &none      &none  &trans  &trans          &none   &none   &none   &none    &none
             >;
         };
     };
