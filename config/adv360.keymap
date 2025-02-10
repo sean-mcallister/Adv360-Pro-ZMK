@@ -28,7 +28,7 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp G &kp G>;
-            label = "VIM_BOF";
+            label = "vim_gg";
         };
 
         #endif
